@@ -1,0 +1,39 @@
+
+storage:
+  db:
+    type: postgresql
+    postgresql:
+      host: 0.0.0.0
+      user: postgres
+      schema: public
+      database: wasselli
+      password:
+      port: 5432
+      tables:
+
+
+s3:
+  minio:
+    endpoint: "127.0.0.1:9000"
+    access-key:
+    secret-key:
+    ssl: false
+
+
+server:
+  type: http
+  listen: 0.0.0.0:8080
+
+
+email:
+  from:
+  pwd:
+  smtpHost: smtp.gmail.com
+  smtpPort: 587
+
+google:
+  clientID:
+
+admin:
+  api-key:
+  email:
