@@ -19,6 +19,8 @@ vendor*/
 go.sum
 
 # Jetbrain IDE files
+/.idea/
+
 .idea/
 .idea/*
 .idea/**/*
